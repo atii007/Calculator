@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-image: url(img/calculator.jpg);
+background-repeat: no-repeat;
+background-size: cover;">
+    <div class="calculator">
+        <div class="input">
+            <div class="output"><input type="text" id="input1"></div>
+            <div class="output" style="display: flex;"><input type="text" id="sign"
+                    style="width: 20px;height: 20px;" readonly></div>
+            <div class="output"><input type="text" id="input2"></div>
+        </div>
+        <div class="output" id="output"></div>
+        <div class="keys">
+            <button class="key_values operators">+</button>
+            <button class="key_values operators">-</button>
+            <button class="key_values operators">&times;</button>
+            <button class="key_values operators">&divide;</button>
+            <button class="key_values values">7</button>
+            <button class="key_values values">8</button>
+            <button class="key_values values">9</button>
+            <button class="key_values values">4</button>
+            <button class="key_values values">5</button>
+            <button class="key_values values">6</button>
+            <button class="key_values values">1</button>
+            <button class="key_values values">2</button>
+            <button class="key_values values">3</button>
+            <button class="key_values values">0</button>
+            <button class="key_values values">.</button>
+            <button class="key_values" id="clear">AC</button>
+            <button class="key_values enter" id="result">=</button>
+        </div>
+
+    </div>
+
+
+
+    <!-- JavaScript For Calculator Functioning -->
+    <script src="js/style.js"></script>
+
+</body>
+
+</html>
